@@ -113,33 +113,33 @@ RENDER.hexgl.tracks.Cityscape = {
 		{console.log('HIGH');
 			this.lib.load({
 				textures: {
-					'hex'								: "textures.full/hud/hex.jpg",
-					'spark'								: "textures.full/particles/spark.png",
-					'cloud'								: "textures.full/particles/cloud.png",
-					'ship.feisar.diffuse'				: "textures.full/ships/feisar/diffuse.jpg",
-					'ship.feisar.specular'				: "textures.full/ships/feisar/specular.jpg",
-					'ship.feisar.normal'				: "textures.full/ships/feisar/normal.jpg",
-					'booster.diffuse'					: "textures.full/ships/feisar/booster/booster.png",
-					'booster.sprite'					: "textures.full/ships/feisar/booster/boostersprite.jpg",
-					'track.cityscape.diffuse'			: "textures.full/tracks/cityscape/diffuse.jpg",
-					'track.cityscape.specular'			: "textures.full/tracks/cityscape/specular.jpg",
-					'track.cityscape.normal'			: "textures.full/tracks/cityscape/normal.jpg",
-					'track.cityscape.scrapers1.diffuse'	: "textures.full/tracks/cityscape/scrapers1/diffuse.jpg",
-					'track.cityscape.scrapers1.specular': "textures.full/tracks/cityscape/scrapers1/specular.jpg",
-					'track.cityscape.scrapers1.normal'	: "textures.full/tracks/cityscape/scrapers1/normal.jpg",
-					'track.cityscape.scrapers2.diffuse'	: "textures.full/tracks/cityscape/scrapers2/diffuse.jpg",
-					'track.cityscape.scrapers2.specular': "textures.full/tracks/cityscape/scrapers2/specular.jpg",
-					'track.cityscape.scrapers2.normal'	: "textures.full/tracks/cityscape/scrapers2/normal.jpg",
-					'track.cityscape.start.diffuse'		: "textures.full/tracks/cityscape/start/diffuse.jpg",
-					'track.cityscape.start.specular'	: "textures.full/tracks/cityscape/start/specular.jpg",
-					'track.cityscape.start.normal'		: "textures.full/tracks/cityscape/start/normal.jpg",
-					'track.cityscape.start.banner'		: "textures.full/tracks/cityscape/start/start.jpg",
-					'bonus.base.diffuse'				: "textures.full/bonus/base/diffuse.jpg",
-					'bonus.base.normal'					: "textures.full/bonus/base/normal.jpg",
-					'bonus.base.specular'				: "textures.full/bonus/base/specular.jpg"
+					'hex'								: "textures/hud/hex.jpg",
+					'spark'								: "textures/particles/spark.png",
+					'cloud'								: "textures/particles/cloud.png",
+					'ship.feisar.diffuse'				: "textures/ships/feisar/diffuse.jpg",
+					'ship.feisar.specular'				: "textures/ships/feisar/specular.jpg",
+					'ship.feisar.normal'				: "textures/ships/feisar/normal.jpg",
+					'booster.diffuse'					: "textures/ships/feisar/booster/booster.png",
+					'booster.sprite'					: "textures/ships/feisar/booster/boostersprite.jpg",
+					'track.cityscape.diffuse'			: "textures/tracks/cityscape/diffuse.jpg",
+					'track.cityscape.specular'			: "textures/tracks/cityscape/specular.jpg",
+					'track.cityscape.normal'			: "textures/tracks/cityscape/normal.jpg",
+					'track.cityscape.scrapers1.diffuse'	: "textures/tracks/cityscape/scrapers1/diffuse.jpg",
+					'track.cityscape.scrapers1.specular': "textures/tracks/cityscape/scrapers1/specular.jpg",
+					'track.cityscape.scrapers1.normal'	: "textures/tracks/cityscape/scrapers1/normal.jpg",
+					'track.cityscape.scrapers2.diffuse'	: "textures/tracks/cityscape/scrapers2/diffuse.jpg",
+					'track.cityscape.scrapers2.specular': "textures/tracks/cityscape/scrapers2/specular.jpg",
+					'track.cityscape.scrapers2.normal'	: "textures/tracks/cityscape/scrapers2/normal.jpg",
+					'track.cityscape.start.diffuse'		: "textures/tracks/cityscape/start/diffuse.jpg",
+					'track.cityscape.start.specular'	: "textures/tracks/cityscape/start/specular.jpg",
+					'track.cityscape.start.normal'		: "textures/tracks/cityscape/start/normal.jpg",
+					'track.cityscape.start.banner'		: "textures/tracks/cityscape/start/start.jpg",
+					'bonus.base.diffuse'				: "textures/bonus/base/diffuse.jpg",
+					'bonus.base.normal'					: "textures/bonus/base/normal.jpg",
+					'bonus.base.specular'				: "textures/bonus/base/specular.jpg"
 				},
 				texturesCube: {
-					'skybox.dawnclouds'					: "textures.full/skybox/dawnclouds/%1.jpg"
+					'skybox.dawnclouds'					: "textures/skybox/dawnclouds/%1.jpg"
 				},
 				geometries: {
 					'bonus.base'						: "geometries/bonus/base/base.js",
@@ -153,13 +153,13 @@ RENDER.hexgl.tracks.Cityscape = {
 					'track.cityscape.bonus.speed'		: "geometries/tracks/cityscape/bonus/speed.js"
 				},
 				analysers: {
-					'track.cityscape.collision'			: "textures.full/tracks/cityscape/collision.png",
-					'track.cityscape.height'			: "textures.full/tracks/cityscape/height.png"
+					'track.cityscape.collision'			: "textures/tracks/cityscape/collision.png",
+					'track.cityscape.height'			: "textures/tracks/cityscape/height.png"
 				},
 				images: {
-					'hud.bg'							: "textures.full/hud/hud-bg.png",
-					'hud.speed'							: "textures.full/hud/hud-fg-speed.png",
-					'hud.shield'						: "textures.full/hud/hud-fg-shield.png"
+					'hud.bg'							: "textures/hud/hud-bg.png",
+					'hud.speed'							: "textures/hud/hud-fg-speed.png",
+					'hud.shield'						: "textures/hud/hud-fg-shield.png"
 				},
 				sounds: {
 					bg: {
